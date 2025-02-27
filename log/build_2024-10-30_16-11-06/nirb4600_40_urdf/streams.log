@@ -1,0 +1,42 @@
+[4.574s] Invoking command in '/home/hance/nirb4600_40/nirb_4600_40_ws/nirb4600_40_urdf': PYTHONPATH=/home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hance/nirb4600_40/nirb_4600_40_ws/install/nirb4600_40_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nirb4600_40_urdf build --build-base /home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/build install --record /home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/install.log --single-version-externally-managed install_data
+[5.340s] /home/hance/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.340s]   warnings.warn(msg)
+[5.789s] running egg_info
+[5.861s] writing ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/PKG-INFO
+[5.868s] writing dependency_links to ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/dependency_links.txt
+[5.875s] deleting ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/entry_points.txt
+[5.875s] writing requirements to ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/requires.txt
+[5.876s] writing top-level names to ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/top_level.txt
+[6.013s] reading manifest file '../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/SOURCES.txt'
+[6.017s] Traceback (most recent call last):
+[6.017s]   File "/home/hance/nirb4600_40/nirb_4600_40_ws/nirb4600_40_urdf/setup.py", line 6, in <module>
+[6.018s]     setup(
+[6.018s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[6.018s] adding license file 'LICENSE'
+[6.020s]     return distutils.core.setup(**attrs)
+[6.021s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup
+[6.021s]     return run_commands(dist)
+[6.021s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands
+[6.021s]     dist.run_commands()
+[6.021s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands
+[6.022s]     self.run_command(cmd)
+[6.022s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/dist.py", line 999, in run_command
+[6.025s]     super().run_command(command)
+[6.025s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command
+[6.026s]     cmd_obj.run()
+[6.026s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[6.030s]     self.find_sources()
+[6.030s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[6.032s]     mm.run()
+[6.032s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 546, in run
+[6.032s]     self.prune_file_list()
+[6.033s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[6.033s]     super().prune_file_list()
+[6.034s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[6.035s]     base_dir = self.distribution.get_fullname()
+[6.035s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+[6.040s]     return _distribution_fullname(self.get_name(), self.get_version())
+[6.040s]   File "/home/hance/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+[6.041s]     canonicalize_version(version, strip_trailing_zero=False),
+[6.041s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[6.125s] Invoked command in '/home/hance/nirb4600_40/nirb_4600_40_ws/nirb4600_40_urdf' returned '1': PYTHONPATH=/home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hance/nirb4600_40/nirb_4600_40_ws/install/nirb4600_40_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nirb4600_40_urdf build --build-base /home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/build install --record /home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/install.log --single-version-externally-managed install_data

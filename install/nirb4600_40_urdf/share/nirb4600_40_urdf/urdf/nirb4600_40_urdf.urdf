@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="nirb4600_40_urdf">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.000401552070917752 -0.0911236885967994 0.082401349956146"
+        rpy="0 0 0" />
+      <mass
+        value="30.2641154431706" />
+      <inertia
+        ixx="0.85892250014232"
+        ixy="-0.00417681574526498"
+        ixz="2.02687149771848E-05"
+        iyy="0.42278420441108"
+        iyz="0.057731312023842"
+        izz="1.1601929630538" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link1">
+    <inertial>
+      <origin
+        xyz="-0.024807107628731 0.0776629688579943 0.400092919013336"
+        rpy="0 0 0" />
+      <mass
+        value="42.2512643667046" />
+      <inertia
+        ixx="1.43240606436792"
+        ixy="0.0963146953855848"
+        ixz="0.103836667071636"
+        iyy="1.10581505251293"
+        iyz="-0.293764571503675"
+        izz="1.14918481679273" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link1" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="Link2">
+    <inertial>
+      <origin
+        xyz="-0.281840078336342 0.39781454111129 0.170069106813736"
+        rpy="0 0 0" />
+      <mass
+        value="34.3067168121155" />
+      <inertia
+        ixx="2.55506426879015"
+        ixy="1.67036570727235"
+        ixz="0.0624659888843496"
+        iyy="1.38260506449306"
+        iyz="-0.0880809280926427"
+        izz="3.83471176479517" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="0 0.175 0.495"
+      rpy="1.5707963267949 0 1.5707963267949" />
+    <parent
+      link="Link1" />
+    <child
+      link="Link2" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="2.61"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="Link3">
+    <inertial>
+      <origin
+        xyz="0.0394896150500489 0.119612171511015 -0.0493820916545228"
+        rpy="0 0 0" />
+      <mass
+        value="50.8444734408674" />
+      <inertia
+        ixx="1.12797955697909"
+        ixy="-0.114867836776946"
+        ixz="-0.0751946583408964"
+        iyy="1.1308632978377"
+        iyz="0.0113709255127396"
+        izz="1.37501946023885" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="-0.633136829064489 0.893399549855583 0"
+      rpy="0 0 0" />
+    <parent
+      link="Link2" />
+    <child
+      link="Link3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="1.3"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="Link4">
+    <inertial>
+      <origin
+        xyz="-0.00227018840661741 -0.00167349538403638 0.355369253266542"
+        rpy="0 0 0" />
+      <mass
+        value="13.9277684882343" />
+      <inertia
+        ixx="1.34532870458299"
+        ixy="1.94210039537778E-05"
+        ixz="-0.00634672101255237"
+        iyy="1.32805509180351"
+        iyz="-0.00900910156581978"
+        izz="0.0573719246889649" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="1.26843284063973 0.186019162417834 0"
+      rpy="-1.5707963267949 0 1.57947813474217" />
+    <parent
+      link="Link3" />
+    <child
+      link="Link4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-6.97"
+      upper="6.97"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="Link5">
+    <inertial>
+      <origin
+        xyz="0.00237574093749604 -0.00436665342692508 -0.000222064434217462"
+        rpy="0 0 0" />
+      <mass
+        value="1.21227831392543" />
+      <inertia
+        ixx="0.00286916295232664"
+        ixy="-1.25901271544486E-05"
+        ixz="-5.36234279426188E-07"
+        iyy="0.00263166248529629"
+        iyz="3.79126477865834E-08"
+        izz="0.00286330438496267" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Link4" />
+    <child
+      link="Link5" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-2.18"
+      upper="2.09"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="Link6">
+    <inertial>
+      <origin
+        xyz="-0.0574916916077448 5.03621487904675E-05 0.000499182407269316"
+        rpy="0 0 0" />
+      <mass
+        value="0.517167341244586" />
+      <inertia
+        ixx="0.000434942756306536"
+        ixy="1.79241784414791E-06"
+        ixz="1.54565646964646E-05"
+        iyy="0.00221585836062058"
+        iyz="-1.35152149583328E-08"
+        izz="0.00221447370512909" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nirb4600_40_urdf/meshes/visual/Link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Link5" />
+    <child
+      link="Link6" />
+    <axis
+      xyz="0.99996 0 -0.0086817" />
+    <limit
+      lower="-6.97"
+      upper="6.97"
+      effort="100"
+      velocity="1" />
+  </joint>
+</robot>

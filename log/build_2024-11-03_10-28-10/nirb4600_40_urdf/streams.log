@@ -1,0 +1,21 @@
+[4.020s] Invoking command in '/home/hance/nirb4600_40/nirb_4600_40_ws/nirb4600_40_urdf': PYTHONPATH=/home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hance/nirb4600_40/nirb_4600_40_ws/install/nirb4600_40_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nirb4600_40_urdf build --build-base /home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/build install --record /home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/install.log --single-version-externally-managed install_data
+[5.440s] running egg_info
+[5.442s] writing ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/PKG-INFO
+[5.442s] writing dependency_links to ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/dependency_links.txt
+[5.442s] writing entry points to ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/entry_points.txt
+[5.442s] writing requirements to ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/requires.txt
+[5.449s] writing top-level names to ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/top_level.txt
+[5.450s] reading manifest file '../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/SOURCES.txt'
+[5.450s] adding license file 'LICENSE'
+[5.453s] writing manifest file '../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info/SOURCES.txt'
+[5.454s] running build
+[5.455s] running build_py
+[5.456s] running install
+[5.469s] running install_lib
+[5.469s] running install_data
+[5.469s] running install_egg_info
+[5.481s] removing '/home/hance/nirb4600_40/nirb_4600_40_ws/install/nirb4600_40_urdf/lib/python3.10/site-packages/nirb4600_40_urdf-0.0.0-py3.10.egg-info' (and everything under it)
+[5.483s] Copying ../build/nirb4600_40_urdf/nirb4600_40_urdf.egg-info to /home/hance/nirb4600_40/nirb_4600_40_ws/install/nirb4600_40_urdf/lib/python3.10/site-packages/nirb4600_40_urdf-0.0.0-py3.10.egg-info
+[5.488s] running install_scripts
+[5.585s] writing list of installed files to '/home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/install.log'
+[5.682s] Invoked command in '/home/hance/nirb4600_40/nirb_4600_40_ws/nirb4600_40_urdf' returned '0': PYTHONPATH=/home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hance/nirb4600_40/nirb_4600_40_ws/install/nirb4600_40_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nirb4600_40_urdf build --build-base /home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/build install --record /home/hance/nirb4600_40/nirb_4600_40_ws/build/nirb4600_40_urdf/install.log --single-version-externally-managed install_data
